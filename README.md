@@ -1,6 +1,6 @@
 # Tekne Kale
 
-https://circleci.com/gh/teknekale/teknekale/tree/master.svg?style=svg
+[![CircleCI](https://circleci.com/gh/teknekale/teknekale.svg?style=shield)](https://circleci.com/gh/teknekale/teknekale)
 
 # gatsby-starter-default
 The default Gatsby starter
