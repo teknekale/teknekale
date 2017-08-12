@@ -10,9 +10,8 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "lint": "npm run lint:js && npm run lint:css",
+    "lint": "npm run lint:js",
     "lint:js": "xo",
-    "lint:css": "stylelint \"src/**/*.css\"",
     "test": "npm run lint && jest",
     "codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
   },
@@ -21,8 +20,10 @@
     "gatsby": "^1.6.5",
     "gatsby-link": "^1.6.5",
     "gatsby-plugin-react-helmet": "^1.0.1",
+    "gatsby-plugin-typography": "^1.7.3",
     "lodash": "^4.17.4",
-    "semantic-ui-react": "0.71.4"
+    "semantic-ui-react": "0.71.4",
+    "typography-theme-bootstrap": "^0.15.10"
   },
   "devDependencies": {
     "eslint": "^4.4.1",
@@ -31,8 +32,6 @@
     "eslint-plugin-react": "^7.2.0",
     "jest": "^20.0.4",
     "prettier": "^1.5.2",
-    "stylelint": "^8.0.0",
-    "stylelint-config-standard": "^17.0.0",
     "xo": "^0.18.1"
   },
   "xo": {
@@ -41,19 +40,27 @@
       "xo-react"
     ],
     "rules": {
-      "import/no-extraneous-dependencies": ["off"],
-      "import/no-unassigned-import": ["off"],
-      "import/no-unresolved": ["off"],
-      "react/forbid-component-props": ["off"],
-      "indent": ["warn",2]
+      "import/no-extraneous-dependencies": [
+        "off"
+      ],
+      "import/no-unassigned-import": [
+        "off"
+      ],
+      "import/no-unresolved": [
+        "off"
+      ],
+      "react/forbid-component-props": [
+        "off"
+      ],
+      "indent": [
+        "warn",
+        2
+      ]
     }
   },
   "keywords": [
     "teknekale",
     "simone pachera",
     "pachera"
-  ],
-  "stylelint": {
-    "extends": "stylelint-config-standard"
-  }
+  ]
 }
