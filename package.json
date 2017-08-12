@@ -43,6 +43,7 @@
     "rules": {
       "import/no-extraneous-dependencies": ["off"],
       "import/no-unassigned-import": ["off"],
+      "import/no-unresolved": ["off"],
       "react/forbid-component-props": ["warn"],
       "indent": ["error",2]
     }
