@@ -10,7 +10,9 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "lint": "xo",
-    "test": "jest && codecov"
+    "cov": "codecov --token=ff7974b4-1cab-4197-b1d4-38630da90685",
+    "test": "jest",
+    "codecheck": "xo && jest && yarn cov"
   },
   "dependencies": {
     "gatsby": "^1.6.5",
