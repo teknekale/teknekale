@@ -6,5 +6,15 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/599022c16725bd166bb6db63/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/599022c16725bd166bb6db63)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The default Gatsby starter: **gatsby-starter-default**
+> This site is builded starting from the default Gatsby starter: **gatsby-starter-default** and it want to be my personal site along with a learning project for _React_, _Gatsby_, _CirclCI_, _Jest_, _XO_, _Codecov_.
+
+***
+
+Usefull links *(mostly for me -- to be deleted)*
+
+[Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[GatsbyJS Doc](https://www.gatsbyjs.org/docs/) - [Gatsby Blocg Guide](https://www.gatsbyjs.org/blog/2017-07-19-creating-a-blog-with-gatsby/)
+
+[Semantic UI](https://semantic-ui.com)
 
