@@ -6,7 +6,7 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/599022c16725bd166bb6db63/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/599022c16725bd166bb6db63)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> This site is builded starting from the default Gatsby starter: **gatsby-starter-default** and it want to be my personal site along with a learning project for _React_, _Gatsby_, _CirclCI_, _Jest_, _XO_, _Codecov_.
+> This site is builded starting from the default Gatsby starter: **gatsby-starter-default** and it want to be my personal site along with be a personal learning project for _React_, _Gatsby_, _CirclCI_, _Jest_, _XO_, _Codecov_.
 
 ***
 
